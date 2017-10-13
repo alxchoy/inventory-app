@@ -26,7 +26,6 @@ export class ProductsListComponent implements OnInit {
     this.currentProduct = product;
     // el output property (onProductSelected) emite un producto clickeado, el cual será tomado por el padre AppComponent
     this.onProductSelected.emit(product);
-    console.log(product);
   }
 
   isSelected(product: Product): boolean {
